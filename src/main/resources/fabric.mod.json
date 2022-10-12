@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tatcore",
+  "version": "${version}",
+
+  "name": "Toil and Trouble - Core",
+  "description": "This is the core mod for the addon-based Toil and Trouble mod collection!",
+  "authors": [
+    "TechTastic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/tatcore/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.techtastic.tatcore.ToilAndTroubleCoreMod"
+    ],
+    "client": [
+      "net.techtastic.tatcore.ToilAndTroubleCoreModClient"
+    ]
+  },
+  "mixins": [
+    "tatcore.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
