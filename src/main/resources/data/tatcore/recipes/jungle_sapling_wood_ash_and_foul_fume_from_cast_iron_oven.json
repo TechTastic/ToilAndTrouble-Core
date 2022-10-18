@@ -1,0 +1,12 @@
+{
+  "type": "tatcore:cast_iron_oven",
+  "input": {
+    "item": "minecraft:jungle_sapling"
+  },
+  "output": {
+    "item": "tatcore:wood_ash"
+  },
+  "jar": {
+    "item": "tatcore:foul_fume"
+  }
+}

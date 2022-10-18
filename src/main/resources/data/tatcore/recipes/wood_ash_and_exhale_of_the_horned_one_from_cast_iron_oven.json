@@ -1,0 +1,12 @@
+{
+  "type": "tatcore:cast_iron_oven",
+  "input": {
+    "item": "minecraft:oak_sapling"
+  },
+  "output": {
+    "item": "tatcore:wood_ash"
+  },
+  "jar": {
+    "item": "tatcore:exhale_of_the_horned_one"
+  }
+}

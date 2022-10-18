@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "full": 1.0
+      },
+      "model": "tatcore:item/taglock_kit/taglock_kit_filled"
+    },
+    {
+      "predicate": {
+        "full": 0.5
+      },
+      "model": "tatcore:item/taglock_kit/taglock_kit_filled"
+    },
+    {
+      "predicate": {
+        "full": 0.0
+      },
+      "model": "tatcore:item/taglock_kit/taglock_kit_empty"
+    }
+  ]
+}

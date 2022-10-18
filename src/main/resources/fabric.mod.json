@@ -23,6 +23,9 @@
     ],
     "client": [
       "net.techtastic.tatcore.ToilAndTroubleCoreModClient"
+    ],
+    "jei_mod_plugin": [
+      "net.techtastic.tatcore.jei.plugin.TATCorePlugin"
     ]
   },
   "mixins": [

@@ -1,0 +1,12 @@
+{
+  "type": "tatcore:cast_iron_oven",
+  "input": {
+    "item": "minecraft:cod"
+  },
+  "output": {
+    "item": "minecraft:cooked_cod"
+  },
+  "jar": {
+    "item": "tatcore:foul_fume"
+  }
+}

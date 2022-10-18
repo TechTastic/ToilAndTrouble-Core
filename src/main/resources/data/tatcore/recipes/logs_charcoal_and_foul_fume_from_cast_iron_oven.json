@@ -1,0 +1,12 @@
+{
+  "type": "tatcore:cast_iron_oven",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "output": {
+    "item": "minecraft:charcoal"
+  },
+  "jar": {
+    "item": "tatcore:foul_fume"
+  }
+}

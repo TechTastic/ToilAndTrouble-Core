@@ -1,4 +1,21 @@
 {
   "item.tatcore.clay_jar": "Clay Jar",
-  "item.tatcore.raw_clay_jar": "Unfired Clay Jar"
+  "item.tatcore.raw_clay_jar": "Unfired Clay Jar",
+  "item.tatcore.breath_of_the_goddess": "Breath of the Goddess",
+
+  "item.tatcore.mutandis": "Mutandis",
+  "item.tatcore.mutandis_extremis": "Mutandis Extremis",
+  "item.tatcore.wood_ash": "Wood Ash",
+  "item.tatcore.bone_needle": "Bone Needle",
+  "item.tatcore.attuned_stone": "Attuned Stone",
+  "item.tatcore.charged_attuned_stone": "Attuned Stone (Charged)",
+
+  "item.tatcore.taglock_kit": "Taglock Kit",
+  "item.tatcore.taglock_kit_filled": "Taglock Kit (Filled)",
+  "item.tatcore.taglock_kit.none": "None",
+  "item.tatcore.taglock_kit.unknown": "Unknown",
+  "item.tatcore.key": "Key",
+  "item.tatcore.key_ring": "Key Ring",
+
+  "block.tatcore.cast_iron_oven": "Cast Iron Oven"
 }

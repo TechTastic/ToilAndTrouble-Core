@@ -29,6 +29,19 @@ repositories {
 	maven {
 		url "https://maven.siphalor.de/"
 	}
+
+	// JEI //
+
+	maven {
+		// location of the maven that hosts JEI files
+		name = "Progwml6 maven"
+		url = "https://dvs1.progwml6.com/files/maven/"
+	}
+	maven {
+		// location of a maven mirror for JEI files, as a fallback
+		name = "ModMaven"
+		url = "https://modmaven.dev"
+	}
 }
 
 dependencies {
@@ -44,6 +57,14 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+
+	// JEI //
+
+	// compile against the JEI API but do not include it at runtime
+	modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+	modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-fabric-api:${jei_version}")
+	// at runtime, use the full JEI jar for Fabric
+	modImplementation("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
 }
 
 processResources {

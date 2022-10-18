@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tatcore:item/bottle/taglock_kit_filled"
+  }
+}
